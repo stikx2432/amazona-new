@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: '1',
       name: 'Nike Skin Shirt',
       slug: 'nike-slim-shirt',
       category: 'Shirts',
@@ -13,18 +14,20 @@ const data = {
       description: 'A wonderful shirt',
     },
     {
+      _id: '2',
       name: 'Puma Skin Shirt',
       slug: 'puma-slim-shirt',
       category: 'Shirts',
       images: '/images/p2.jpg',
       price: 120,
-      countInStock: 10,
+      countInStock: 0,
       brand: 'Puma',
       rating: 4.5,
       numReviews: 10,
       description: 'A wonderful shirt',
     },
     {
+      _id: '3',
       name: 'Adidas Skin Shirt',
       slug: 'adidas-slim-shirt',
       category: 'Shirts',
@@ -37,6 +40,7 @@ const data = {
       description: 'A wonderful shirt',
     },
     {
+      _id: '4',
       name: 'UnderArmor Skin Shirt',
       slug: 'underarmor-slim-shirt',
       category: 'Shirts',
